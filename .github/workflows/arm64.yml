@@ -5,8 +5,8 @@ on:
 
 jobs:
   build:
-    name: Publish binaries
-    runs-on: ubuntu-latest-arm64
+    name: Test build binaries on arm64
+    runs-on: ubuntu-latest-ARM64
 
     steps:
     - name: Install dependencies
