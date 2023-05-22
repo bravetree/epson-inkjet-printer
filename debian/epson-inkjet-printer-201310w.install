@@ -1,0 +1,10 @@
+# Watermark come with each driver, and can be referenced from PPDs,
+# so we put them in a driver-specific location.
+201310w/watermark /usr/share/epson-inkjet-printer/201310w/
+
+# Resource files will be looked up by the CUPS filter and need
+# to be placed in a common place, regardless of the driver.
+201310w/resource  /usr/share/epson-inkjet-printer/
+
+# Put PPDs in a common location too for CUPS to easily find them
+201310w/ppds      /usr/share/epson-inkjet-printer/

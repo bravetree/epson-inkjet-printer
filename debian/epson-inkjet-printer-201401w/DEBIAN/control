@@ -1,0 +1,31 @@
+Package: epson-inkjet-printer-201401w
+Source: epson-inkjet-printer
+Version: 1.0.0-0
+Architecture: amd64
+Maintainer: Seiko Epson Corporation <linux-printer@epson.jp>
+Installed-Size: 6929
+Depends: libc6 (>= 2.2.5), epson-inkjet-printer-filter
+Section: graphics
+Priority: extra
+Description: L455_L456_L36x_L22x_L31x_L13x Series - Epson Inkjet Printer Driver
+ This software is a filter program used with Common UNIX Printing
+ System (CUPS) from the Linux. This can supply the high quality print
+ with Seiko Epson Color Ink Jet Printers.
+ .
+ This printer driver is supporting the following printers.
+ .
+ L456
+ L455
+ L366
+ L365
+ L362
+ L360
+ L312
+ L310
+ L222
+ L220
+ L132
+ L130
+ .
+ For detail list of supported printer, please refer to below site:
+ http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
